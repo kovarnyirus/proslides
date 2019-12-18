@@ -1,0 +1,25 @@
+.copyrights {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media($width_tablet) {
+    margin-top: -7px;
+    width: 162px;
+  }
+
+  @media($width_desktop) {
+    margin-top: -5px;
+  }
+}
+
+.copyrights__link {
+  text-decoration: none;
+
+  &--text {
+    margin-left: -2px;
+    font-family: $font-additional;
+    color: $color_3;
+  }
+}

@@ -1,0 +1,50 @@
+.food {
+  margin-bottom: 15px;
+
+  @media ($width_tablet) {
+    margin-bottom: 43px;
+  }
+
+  @media ($width_desktop) {
+    margin-bottom: 70px;
+  }
+}
+
+.food__link {
+  width: 280px;
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  color: $color_2;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: $color_4;
+  @include center-block;
+  margin-bottom: 22px;
+
+  @media($width_tablet) {
+    width: 245px;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 16px 28px 16px 24px;
+    position: absolute;
+    top: 369px;
+    left: 119px;
+  }
+
+  @media ($width_desktop) {
+    top: 234px;
+    left: 121px;
+  }
+
+  &:hover {
+    background-color: $btn_hover;
+  }
+
+  &:active {
+    color: $btn_active;
+  }
+}
