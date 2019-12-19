@@ -1,0 +1,22 @@
+.header{
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  &__wrapper{
+    max-width: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__logo{
+    width: 160px;
+  }
+  &__logo-link{
+    min-width: 160px;
+  }
+}

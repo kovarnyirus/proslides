@@ -1,0 +1,49 @@
+.act{
+  background-color: $main_color;
+  color: white;
+  background-image: url("../img/bg-light.svg");
+  background-repeat: repeat;
+  padding-bottom: 51px;
+
+
+  &__wrapper{
+    max-width: 320px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 23px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__title{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  &__description{
+    font-size: 14px;
+    line-height: 140%;
+    margin-bottom: 5px;
+  }
+  &__subtitle{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 140%;
+    padding-top: 0;
+    margin-bottom: 33px;
+    span{
+      margin-left: -9px;
+    }
+  }
+  &__form-title{
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 140%;
+    margin-top: 0;
+    margin-bottom: 19px;
+  }
+}
