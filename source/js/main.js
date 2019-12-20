@@ -25,6 +25,12 @@ $( document ).ready(function() {
   $(".main-nav__toggle").click(function () {
     $(this).closest('.main-nav').toggleClass("main-nav--open");
   })
+
+  $("body").on('click', '[href*="#"]', function(e){
+    var fixed_offset = -2;
+    $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
+    e.preventDefault();
+  });
 });
 
 
