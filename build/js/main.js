@@ -13,13 +13,17 @@ $( document ).ready(function() {
     dots: true,
     infinite: true,
     slidesToShow: 1,
-    // centerMode: true,
+    centerMode: true,
     arrows: false,
-    // variableWidth: true
+    variableWidth: true
   });
 
   $(".program__accordion-toggle").click(function () {
     $(this).closest('.program__item').toggleClass("open");
+  })
+
+  $(".main-nav__toggle").click(function () {
+    $(this).closest('.main-nav').toggleClass("main-nav--open");
   })
 });
 
