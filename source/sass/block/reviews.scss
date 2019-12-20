@@ -1,0 +1,75 @@
+.reviews {
+  background-color: $main_color;
+  padding-top: 57px;
+  background-image: url("../img/bg-dots-dark.svg");
+  background-repeat: repeat;
+  padding-bottom: 90px;
+
+  &__wrapper {
+    max-width: 320px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__subtitle {
+    color: white;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 30px;
+  }
+
+  &__list {
+
+  }
+
+  &__item {
+    margin-bottom: 60px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+  &__logo-wrapper {
+    background-color: white;
+    min-width: 133px;
+    margin-bottom: 56px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 56px;
+  }
+
+  &__text-wrapper {
+    background-color: white;
+    position: relative;
+    padding-top: 23px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 28px;
+    font-size: 10px;
+    line-height: 160%;
+
+    p {
+      margin-bottom: 25px;
+    }
+    &:before{
+      position: absolute;
+      display: block;
+      content: '';
+      top: -42px;
+      left: 30px;
+      border-bottom: 43px solid #ffffff;
+      border-right: 72px solid transparent;
+    }
+  }
+
+  &__sign {
+    font-size: 10px;
+    line-height: 160%;
+    text-align: right;
+    font-style: italic;
+    margin-top: -5px;
+  }
+}

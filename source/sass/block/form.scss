@@ -31,14 +31,53 @@
     text-transform: uppercase;
     width: 100%;
     justify-content: center;
+    cursor: pointer;
+    transition: .2s;
+    &:hover{
+      padding-left: 0;
+      padding-right: 0;
+      background-color: #383838;
+    }
+    &:active{
+      padding-left: 0;
+      padding-right: 0;
+      background-color: #686868;
+    }
   }
 
   &__icon {
     position: absolute;
     top: 50%;
     right: 20px;
-    width: 16px;
+    width: 18px;
     fill: #000000;
     transform: translateY(-50%);
+  }
+  &--white{
+    .form__btn{
+      background-color: white;
+      color: black;
+      &:hover{
+        padding-left: 0;
+        padding-right: 0;
+        background: #E2E2E2;
+      }
+      &:active{
+        padding-left: 0;
+        padding-right: 0;
+        background: #CDCDCD;
+      }
+    }
+    .form__input{
+      border: 3px solid #ffffff;
+      background-color: black;
+      color: white;
+      &::placeholder{
+        opacity: 0.7;
+      }
+    }
+    .form__icon{
+      fill: white;
+    }
   }
 }

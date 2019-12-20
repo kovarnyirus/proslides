@@ -1,0 +1,44 @@
+.process {
+  padding-top: 69px;
+
+  &__wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__title {
+    color: black;
+    font-weight: 800;
+  }
+
+  &__item {
+    margin-bottom: 38px;
+    position: relative;
+    padding-left: 20px;
+  }
+
+  &__item-number {
+    position: absolute;
+    left: -20px;
+    top: 5px;
+  }
+
+  &__item-text {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 160%;
+  }
+  &__footer-title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 44px;
+    margin-bottom: 0;
+    margin-right: -20px;
+  }
+}

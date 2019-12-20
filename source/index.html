@@ -12,14 +12,16 @@
 
   <!--  </script>-->
   <!--  <script src="./js/picturefill.min.js" async></script>-->
-  <script src="./js/maim.js" async></script>
+  <script src="js/jQuery.js" defer></script>
+  <script src="js/slick.min.js" defer></script>
+  <script src="js/main.js" defer></script>
 </head>
 
 <body>
 
-  <div style="display:none">
-    <include src="build/img/sprite.svg"></include>
-  </div>
+<div style="display:none">
+  <include src="build/img/sprite.svg"></include>
+</div>
 
 <header class="header">
   <div class="header__wrapper">
@@ -96,48 +98,757 @@
     </div>
   </div>
 </section>
-<section class="learn">
-  <div class="learn__wrapper footer-decor">
+<section class="learn footer-decor">
+  <div class="learn__wrapper">
     <div class="learn__list">
       <div class="learn__item">
         <h3 class="learn__item-title">Инфографика</h3>
         <p class="learn__subtitle">Тренды и простые приёмы подачи сложной информации на слайде!</p>
         <svg class="learn__number" width="97" height="210">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-1"></use>
-          </svg>
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-1"></use>
+        </svg>
       </div>
       <div class="learn__item">
         <h3 class="learn__item-title">Картинки и иконки</h3>
         <p class="learn__subtitle">Где искать и как их эффектно использовать в презентации! </p>
         <svg class="learn__number" width="97" height="210">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-2"></use>
-          </svg>
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-2"></use>
+        </svg>
       </div>
       <div class="learn__item">
         <h3 class="learn__item-title">Манипуляция вниманием</h3>
         <p class="learn__subtitle">С помощью дизайна слайдов и анимации. Секретные лайфхаки!</p>
         <svg class="learn__number" width="97" height="210">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-3"></use>
-          </svg>
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-3"></use>
+        </svg>
       </div>
       <div class="learn__item">
         <h3 class="learn__item-title">Сложные текстовые слайды</h3>
         <p class="learn__subtitle">Как эффективно организовать и сделать читабельным.</p>
         <svg class="learn__number" width="97" height="210">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-4"></use>
-          </svg>
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-4"></use>
+        </svg>
       </div>
       <div class="learn__item">
         <h3 class="learn__item-title">Диаграммы и графики</h3>
         <p class="learn__subtitle">Секреты визуализации данных.</p>
         <svg class="learn__number" width="97" height="210">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-5"></use>
-          </svg>
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-5"></use>
+        </svg>
       </div>
     </div>
   </div>
 </section>
-<footer class="page-footer">
+<section class="get footer-decor">
+  <div class="get__wrapper">
+    <h2 class="get__title">Что вы получите, пройдя обучение по нашей методике</h2>
+    <div class="get__list">
+      <div class="get__item">
+        <div class="get__item-user">Менеджер</div>
+        <div class="get__text-wrapper">
+          <div class="get__text-white-block">
+            <p class="get__text">
+              Вы каждый день сталкиваетесь
+              с типичными слайдами
+              в PowerPoint и каждый раз – это стресс? Хочется как-то классно сделать, но контент всё портит
+              и мешает полёту фантазии?
+            </p>
+          </div>
+          <div class="get__text-black-block">
+            <p class="get__text">
+              На нашем курсе вы научитесь делать эффектно даже самые скучные слайды с таблицами
+              и большими объёмами текста, несложную инфографику
+              и подбирать классные мотивирующие картинки
+              для ваших презентаций!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="get__item">
+        <div class="get__item-user">Предприниматель</div>
+        <div class="get__text-wrapper">
+          <div class="get__text-white-block">
+            <p class="get__text">
+              Вы не умеете и не любите делать презентации, но в наши дни
+              без этого никуда. Нужно делать продающие презентации, коммерческие предложения, красиво и вкусно
+              рассказывать
+              о вашем продукте или услуге.
+              А презентация для вас – просто головная боль?
+            </p>
+          </div>
+          <div class="get__text-black-block">
+            <p class="get__text">
+              На нашем курсе вы научитесь делать презентации быстро
+              и легко! Вы сможете организовать все преимущества в строгой иерархии максимально эффективно, понятно и с
+              акцентом на продажи. Успешному проекту – успешная презентация!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="get__item">
+        <div class="get__item-user">Дизайнер</div>
+        <div class="get__text-wrapper">
+          <div class="get__text-white-block">
+            <p class="get__text">
+              Вы не работаете в PowerPoint
+              и каждое столкновение с ним бесит и вызывает нервный тик? Кажется, что там ничего невозможно сделать?
+            </p>
+          </div>
+          <div class="get__text-black-block">
+            <p class="get__text">
+              На нашем курсе вы узнаете секретные методики и поймёте, что PowerPoint почти так же хорош, как Adobe
+              Illustrator
+              и Adobe InDesign! Вы сможете использовать его для быстрого дизайна и увеличить число клиентов для
+              фриланса!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form form--white">
+      <form action="#">
+        <label for="" class="form__label">
+          <input type="text" class="form__input" placeholder="Введите e-mail">
+          <svg class="form__icon form__icon--email" width="18" height="14">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-mail"></use>
+          </svg>
+        </label>
+        <label for="" class="form__label">
+          <input type="tel" class="form__input" placeholder="Введите номер телефона">
+          <svg class="form__icon form__icon--tel" width="16" height="17">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use>
+          </svg>
+        </label>
+        <button class="form__btn">Получить доступ к 1 уроку</button>
+      </form>
+    </div>
+  </div>
+</section>
+<section class="expert footer-decor footer-decor--black">
+  <div class="expert__wrapper">
+    <div class="expert__header">
+      <div class="expert__avatar-wrapper">
+        <img src="img/expert.png" width="238" alt="expert" class="expert__avatar">
+      </div>
+      <div class="expert__content-wrapper">
+        <div class="expert__label">
+          Эксперт курса
+        </div>
+        <h3 class="expert__title">
+          За 12 лет работы я сделал более 1000 успешных презентаций для крупнейших международных компаний.
+        </h3>
+        <p class="expert__subtitle">
+          И теперь я собрал весь свой практический опыт и упаковал его в эффективный курс, в который вошли только самые
+          полезные приёмы и крутые лайфхаки PowerPoint!
+        </p>
+      </div>
+    </div>
+    <ul class="expert__list">
+      <li class="expert__item">
+        С 2017 года создатель и креативный директор студии презентаций PROSLIDES (ссылочка на сайт proslides.ru).
+        Разработка профессиональных презентаций для ТОП-менеджеров ведущих международных компаний. >
+      </li>
+      <li class="expert__item">
+        Разработал 1000+ презентаций своими руками во всех существующих программах.
+      </li>
+      <li class="expert__item">
+        Более 10-ти лет обучал команды дизайнеров в ведущих рекламных агентствах и в собственной студии.
+      </li>
+      <li class="expert__item">
+        Входил в ТОП-100 креативщиков России по версии АКАР, и был членом клуба арт-директоров «ADCR» (2015-2017 гг).
+      </li>
+      <li class="expert__item">
+        Два профессиональных образования – художественное и дизайн среды, креативная школа «Икра».
+      </li>
+      <li class="expert__item">
+        Более 30-ти профессиональных наград ведущих российских и международных рекламных фестивалей
+        (Серебряный Меркурий, Белый Квадрат, Золотой PROпропеллер, The Globe, EVENTIADA, ИДЕЯ)
+      </li>
+      <li class="expert__item">
+        Входил в состав жюри рекламного фестиваля «Серебряный Меркурий» и в состав экзаменационной комиссии школы
+        коммуникаций «Word Shop»
+        по приглашению Леонида Фейгина.
+      </li>
+    </ul>
+    <div class="brands">
+      <div class="brands__list">
+        <div class="brands__item">
+          <img src="img/logos/1.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/2.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/3.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/4.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/5.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/6.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/7.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/8.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/9.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/10.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/11.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/12.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/13.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/14.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/15.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/16.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/17.png" alt="logo">
+        </div>
+        <div class="brands__item">
+          <img src="img/logos/18.png" alt="logo">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="reviews footer-decor footer-decor--white">
+  <div class="reviews__wrapper">
+    <h2 class="reviews__title">
+      Учить должны только эксперты и практики
+    </h2>
+    <div class="reviews__subtitle">
+      Что о нас говорят топ-менеджеры крупных компаний
+    </div>
+    <div class="reviews__list">
+      <div class="reviews__item">
+        <div class="reviews__logo-wrapper">
+          <img src="img/logos-2/1.png" alt="logo" width="112" height="46" class="reviews__logo">
+        </div>
+        <div class="reviews__text-wrapper">
+          <p>
+            «От лица компании хотим поблагодарить команду PROSLIDES за создание мощнейших и крутых презентаций для наших
+            препаратов. Наша компания высоко оценила Ваш творческий подход и оперативность в работе. Уверены, наше
+            сотрудничество будет долгосрочным и весьма плодотворным, поскольку уровень сервиса и качества, который
+            Вы предоставляете клиентам — это основная причина, по которой нам приятно иметь дело с Вашей компанией. Мы
+            желаем Вам больших успехов и покорения Вашего голубого океана!»
+          </p>
+          <p class="reviews__sign">
+            С уважением, команда бренд-менеджеров Юнифарм
+          </p>
+        </div>
+      </div>
+      <div class="reviews__item">
+        <div class="reviews__logo-wrapper">
+          <img src="img/logos-2/2-2.png" alt="logo" width="106" height="39" class="reviews__logo">
+        </div>
+        <div class="reviews__text-wrapper">
+          <p>
+            «PROSLIDES — настоящая находка для нашего агентства HS Ad Russia. Специфика работы российского офиса требует
+            огромного количества презентаций для нашего основного клиента LG Electronics, которые нужны «прямо сейчас».
+            И среди всех подрядчиков, с которыми мы когда-либо работали, только PROSLIDES предлагает настолько высокий
+            уровень презентаций в такие сжатые сроки.»
+          </p>
+          <p class="reviews__sign">
+            С уважением, команда бренд-менеджеров Юнифарм
+          </p>
+        </div>
+      </div>
+      <div class="reviews__item">
+        <div class="reviews__logo-wrapper">
+          <img src="img/logos-2/4.png" alt="logo" width="96" height="43" class="reviews__logo">
+        </div>
+        <div class="reviews__text-wrapper">
+          <p>
+            «Уверена, что мы все классные презентаторы и у нас отличные идеи!
+            Но, зачастую, мы не можем быть в десяти местах одновременно и лично донести идею партнёрам или клиентам..
+            Тогда важность поданного материала и оформления презентации выходит на первое место. Если вам нужно донести
+            ваши мысли в красивой и структурированной форме, то вам к этим ребятам!
+          </p>
+          <p>
+            Опыт Лены позволит кратко сформулировать самую суть вашей мысли, а Антон в совершенстве оформит все слайды
+            на супер профессиональном уровне так, что презентацию захочется пересмотреть не раз, ибо это гармонично и
+            цепляет за живое! И клиент видит и слышит вашу идею сразу, Вот оно!
+          </p>
+          <p>
+            Если честно, ребята умеют работать круглосуточно, но не злоупотребляйте этим, они нам всем ещё очень
+            пригодятся)
+          </p>
+          <p>
+            Абсолютно слаженная команда профессионалов, которая болеет за результат вместе с вами.
+          </p>
+          <p>
+            Крайне рекомендую»
+          </p>
+          <p class="reviews__sign">
+            С уважением, команда бренд-менеджеров Юнифарм
+          </p>
+        </div>
+      </div>
+      <div class="reviews__item">
+        <div class="reviews__logo-wrapper">
+          <img src="img/logos-2/5.png" alt="logo" width="103" height="55" class="reviews__logo">
+        </div>
+        <div class="reviews__text-wrapper">
+          <p>
+            «АО «Российская венчурная компания» выражает благодарность компании PRO.SLIDES за сотрудничество в рамках
+            подготовки форума «Экосистема НТИ» в 2018 году.
+          </p>
+          <p>
+
+            Творческой командой PRO.SLIDES была разработана имиджевая мультимедийная презентация для выступления
+            генерального директора АО «РВК» на официальном открытии Форума «Экосистема НТИ» 6-7 декабря
+            в г.Сочи.
+          </p>
+          <p>
+            Благодаря технологичному и современному дизайну и динамике видео-презентации удалось эффектно показать
+            участникам Форума текущие достижения Национальной технологической инициативы (НТИ) и новые вызовы к
+            обеспечению глобального технологического лидерства России к 2035 году.
+          </p>
+          <p>
+            Опыт, который мы получили во время совместной работы по разработке мультимедийной презентации, позволяет
+            характеризовать компанию PRO.SLIDES как высококвалифицированного, добросовестного и надёжного подрядчика,
+            который обеспечивает высокое качество работы, соответствующей требованиям заказчика, и реализует проекты
+            в кратчайшие сроки. Особенно мы оценили проактивную реакцию на возникающие изменения и предлагаемые решения
+            со стороны команды PRO.SLIDES за пределами своей зоны ответственности.
+          </p>
+          <p>
+            Мы благодарим компанию PRO.SLIDES и рекомендуем как эффективного и ответственного партнёра.»
+          </p>
+          <p class="reviews__sign">
+            Заместитель генерального директора — Исполнительный директор АО «РВК» А.В. Романенко
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gallery footer-decor">
+  <div class="gallery__wrapper">
+    <h2 class="gallery__title">
+      Как делаем презентации мы и научим вас
+    </h2>
+  </div>
+  <div class="gallery__list">
+    <div class="gallery__item">
+      <img src="img/slide1.png" alt="slide" class="gallery__img">
+    </div>
+    <div class="gallery__item">
+      <img src="img/slide2.png" alt="slide" class="gallery__img">
+    </div>
+    <div class="gallery__item">
+      <img src="img/slide3.png" alt="slide" class="gallery__img">
+    </div>
+    <div class="gallery__item">
+      <img src="img/slide1.png" alt="slide" class="gallery__img">
+    </div>
+    <div class="gallery__item">
+      <img src="img/slide2.png" alt="slide" class="gallery__img">
+    </div>
+    <div class="gallery__item">
+      <img src="img/slide3.png" alt="slide" class="gallery__img">
+    </div>
+  </div>
+  <div class="gallery__wrapper">
+    <div class="form form--white">
+      <form action="#">
+        <label for="" class="form__label">
+          <input type="text" class="form__input" placeholder="Введите e-mail">
+          <svg class="form__icon form__icon--email" width="18" height="14">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-mail"></use>
+          </svg>
+        </label>
+        <label for="" class="form__label">
+          <input type="tel" class="form__input" placeholder="Введите номер телефона">
+          <svg class="form__icon form__icon--tel" width="16" height="17">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use>
+          </svg>
+        </label>
+        <button class="form__btn">Получить доступ к 1 уроку</button>
+      </form>
+    </div>
+  </div>
+</section>
+<section class="process">
+  <div class="process__wrapper footer-decor">
+    <h2 class="process__title">
+      Как проходит обучение:
+    </h2>
+    <div class="process__list">
+      <div class="process__item">
+        <svg class="process__item-number" width="22" height="26">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-1-small"></use>
+        </svg>
+        <p class="process__item-text">
+          Вы получаете презентацию, которую вам предстоит задизайнить и образец финальной красоты!
+        </p>
+      </div>
+      <div class="process__item">
+        <svg class="process__item-number" width="22" height="26">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-2-small"></use>
+        </svg>
+        <p class="process__item-text">
+          Смотрите короткие видеоуроки и выполняете домашнее задание.
+        </p>
+      </div>
+      <div class="process__item">
+        <svg class="process__item-number" width="22" height="26">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-3-small"></use>
+        </svg>
+        <p class="process__item-text">
+          Отправляете задание нам на проверку и получаете по нему обратную связь от эксперта.
+        </p>
+      </div>
+      <div class="process__item">
+        <svg class="process__item-number" width="22" height="26">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-4-small"></use>
+        </svg>
+        <p class="process__item-text">
+          Доводите ваш слайд до идеала и получаете доступ к следующему слайду!
+        </p>
+      </div>
+      <div class="process__item">
+        <svg class="process__item-number" width="22" height="26">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-5-small"></use>
+        </svg>
+        <p class="process__item-text">
+          В конце курса вы сдаёте финальную презентацию – всё, как в жизни!
+        </p>
+      </div>
+    </div>
+    <h3 class="process__footer-title">
+      После получения зачёта
+      вам открывается
+      бонусный урок!
+    </h3>
+  </div>
+</section>
+<section class="program">
+  <div class="program__wrapper">
+    <h2 class="program__title">
+      Программа курсов
+    </h2>
+    <div class="program__list">
+      <div class="program__item">
+        <div class="program__item-head">
+          <h4 class="program__accordion-title">
+            0-й слайд «Вводная часть».
+          </h4>
+          <button class="program__accordion-toggle"></button>
+        </div>
+        <div class="program__accordion">
+          <p class="program__accordion-text">
+            Вы познакомитесь с интерфейсом PowerPoint.
+            Узнаете, как ускорить вашу работу
+            с помощью правильной настройки шаблона.
+          </p>
+        </div>
+      </div>
+      <div class="program__item">
+        <div class="program__item-head">
+          <h4 class="program__accordion-title">
+            1-й слайд «Титульный».
+          </h4>
+          <button class="program__accordion-toggle"></button>
+        </div>
+        <div class="program__accordion">
+          <p class="program__accordion-text">
+            Вы познакомитесь с интерфейсом PowerPoint.
+            Узнаете, как ускорить вашу работу
+            с помощью правильной настройки шаблона.
+          </p>
+        </div>
+      </div>
+      <div class="program__item">
+        <div class="program__item-head">
+          <h4 class="program__accordion-title">
+            2-й слайд «Текстовый»
+          </h4>
+          <button class="program__accordion-toggle"></button>
+        </div>
+        <div class="program__accordion">
+          <p class="program__accordion-text">
+            Вы познакомитесь с интерфейсом PowerPoint.
+            Узнаете, как ускорить вашу работу
+            с помощью правильной настройки шаблона.
+          </p>
+        </div>
+      </div>
+      <div class="program__item">
+        <div class="program__item-head">
+          <h4 class="program__accordion-title">
+            3-й слайд «Текст с картинками»
+          </h4>
+          <button class="program__accordion-toggle"></button>
+        </div>
+        <div class="program__accordion">
+          <p class="program__accordion-text">
+            Вы познакомитесь с интерфейсом PowerPoint.
+            Узнаете, как ускорить вашу работу
+            с помощью правильной настройки шаблона.
+          </p>
+        </div>
+      </div>
+      <div class="program__item">
+        <div class="program__item-head">
+          <h4 class="program__accordion-title">
+            4-й слайд «Инфографика и иконки»
+          </h4>
+          <button class="program__accordion-toggle"></button>
+        </div>
+        <div class="program__accordion">
+          <p class="program__accordion-text">
+            Вы познакомитесь с интерфейсом PowerPoint.
+            Узнаете, как ускорить вашу работу
+            с помощью правильной настройки шаблона.
+          </p>
+        </div>
+      </div>
+      <div class="program__item">
+        <div class="program__item-head">
+          <h4 class="program__accordion-title">
+            5-й слайд «График и диаграмма»
+          </h4>
+          <button class="program__accordion-toggle"></button>
+        </div>
+        <div class="program__accordion">
+          <p class="program__accordion-text">
+            Вы познакомитесь с интерфейсом PowerPoint.
+            Узнаете, как ускорить вашу работу
+            с помощью правильной настройки шаблона.
+          </p>
+        </div>
+      </div>
+      <div class="program__item">
+        <div class="program__item-head">
+          <h4 class="program__accordion-title">
+            6-й слайд «Фотоотчёт»
+          </h4>
+          <button class="program__accordion-toggle"></button>
+        </div>
+        <div class="program__accordion">
+          <p class="program__accordion-text">
+            Вы познакомитесь с интерфейсом PowerPoint.
+            Узнаете, как ускорить вашу работу
+            с помощью правильной настройки шаблона.
+          </p>
+        </div>
+      </div>
+      <div class="program__item">
+        <div class="program__item-head">
+          <h4 class="program__accordion-title">
+            7-й слайд «Таймлайн»
+          </h4>
+          <button class="program__accordion-toggle"></button>
+        </div>
+        <div class="program__accordion">
+          <p class="program__accordion-text">
+            Вы познакомитесь с интерфейсом PowerPoint.
+            Узнаете, как ускорить вашу работу
+            с помощью правильной настройки шаблона.
+          </p>
+        </div>
+      </div>
+      <div class="program__item">
+        <div class="program__item-head">
+          <h4 class="program__accordion-title">
+            8-й слайд «Таблицы»
+          </h4>
+          <button class="program__accordion-toggle"></button>
+        </div>
+        <div class="program__accordion">
+          <p class="program__accordion-text">
+            Вы познакомитесь с интерфейсом PowerPoint.
+            Узнаете, как ускорить вашу работу
+            с помощью правильной настройки шаблона.
+          </p>
+        </div>
+      </div>
+      <div class="program__item">
+        <div class="program__item-head">
+          <h4 class="program__accordion-title">
+            9-й слайд «Видео»
+          </h4>
+          <button class="program__accordion-toggle"></button>
+        </div>
+        <div class="program__accordion">
+          <p class="program__accordion-text">
+            Вы познакомитесь с интерфейсом PowerPoint.
+            Узнаете, как ускорить вашу работу
+            с помощью правильной настройки шаблона.
+          </p>
+        </div>
+      </div>
+      <div class="program__item">
+        <div class="program__item-head">
+          <h4 class="program__accordion-title">
+            10-й слайд «Шмуцтитул»
+          </h4>
+          <button class="program__accordion-toggle"></button>
+        </div>
+        <div class="program__accordion">
+          <p class="program__accordion-text">
+            Вы познакомитесь с интерфейсом PowerPoint.
+            Узнаете, как ускорить вашу работу
+            с помощью правильной настройки шаблона.
+          </p>
+        </div>
+      </div>
+      <div class="program__item">
+        <div class="program__item-head">
+          <h4 class="program__accordion-title">
+            Финальная сборка презентации.
+          </h4>
+          <button class="program__accordion-toggle"></button>
+        </div>
+        <div class="program__accordion">
+          <p class="program__accordion-text">
+            Вы познакомитесь с интерфейсом PowerPoint.
+            Узнаете, как ускорить вашу работу
+            с помощью правильной настройки шаблона.
+          </p>
+        </div>
+      </div>
+      <div class="program__item">
+        <div class="program__item-head">
+          <h4 class="program__accordion-title">
+            Бонус слайд – «Карта с анимацией»!
+          </h4>
+          <button class="program__accordion-toggle"></button>
+        </div>
+        <div class="program__accordion">
+          <p class="program__accordion-text">
+            Вы познакомитесь с интерфейсом PowerPoint.
+            Узнаете, как ускорить вашу работу
+            с помощью правильной настройки шаблона.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="price">
+  <div class="price__wrapper">
+    <div class="price__title-wrapper">
+      <h2 class="price__title">
+        Выберите подходящий для вас вариант обучения
+      </h2>
+    </div>
+    <div class="price__list">
+      <div class="price__item">
+        <h3 class="price__name">
+          Эконом-класс
+        </h3>
+        <div class="price__cost">
+          4 750 ₽
+        </div>
+        <div class="price__include-list">
+          <div class="price__include-item">Доступ к видеоурокам на 21 день</div>
+          <div class="price__include-item">Проверка финального задания</div>
+          <div class="price__include-item">Чат поддержки</div>
+        </div>
+        <button class="btn price__btn">Приобрести курс</button>
+      </div>
+      <div class="price__item">
+        <h3 class="price__name">
+          Комфорт-класс
+        </h3>
+        <div class="price__cost">
+          7 750 ₽
+        </div>
+        <div class="price__include-list">
+          <div class="price__include-item">Доступ к видеоурокам на 30 дней</div>
+          <div class="price__include-item">Возможность работать со своими материалом</div>
+          <div class="price__include-item">Проверка дз по блокам</div>
+          <div class="price__include-item">Доступ к видеозаписям разборов презентаций</div>
+          <div class="price__include-item">Чат поддержки, куратор</div>
+          <div class="price__include-item">Чек-листы</div>
+        </div>
+        <button class="btn price__btn">Приобрести курс</button>
+      </div>
+      <div class="price__item">
+        <h3 class="price__name">
+          Бизнес-класс
+        </h3>
+        <div class="price__cost">
+          14 750 ₽
+        </div>
+        <div class="price__include-list">
+          <div class="price__include-item">Доступ к видеоурокам на 45 дней</div>
+          <div class="price__include-item">Возможность работать со своими материалом</div>
+          <div class="price__include-item">Проверка дз после каждого урока</div>
+          <div class="price__include-item">Участие в разборах  презентаций. Личное общение с экспертом</div>
+          <div class="price__include-item">Закрытый чат поддержки, эксперт</div>
+          <div class="price__include-item">Онлайн-консультация эксперта по трём слайдам, не входящим в программу курса.</div>
+          <div class="price__include-item">Чек-листы</div>
+        </div>
+        <button class="btn price__btn">Приобрести курс</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="act">
+  <div class="act__wrapper">
+    <h1 class="act__title">
+      Научись манипулировать вниманием в презентациях,
+    </h1>
+    <p class="act__description">
+      освоив 5 крутых дизайнерских лайфхаков, уже сегодня
+    </p>
+    <p class="act__subtitle">
+      с помощью курса<br>
+      <span>«Что скрывает Powerpoint»!</span>
+    </p>
+    <h3 class="act__form-title">
+      Заполните форму и получите доступ к первому уроку нашего ведущего курса бесплатно
+    </h3>
+    <div class="form">
+      <form action="#">
+        <label for="" class="form__label">
+          <input type="text" class="form__input" placeholder="Введите e-mail">
+          <svg class="form__icon form__icon--email" width="18" height="14">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-mail"></use>
+          </svg>
+        </label>
+        <label for="" class="form__label">
+          <input type="tel" class="form__input" placeholder="Введите номер телефона">
+          <svg class="form__icon form__icon--tel" width="16" height="17">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use>
+          </svg>
+        </label>
+        <button class="form__btn">Получить доступ к 1 уроку</button>
+      </form>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer__wrapper">
+    <div class="footer__copyright">
+      © 2019   |   Все права защищены
+    </div>
+    <a href="" class="footer__link" target="_blank">Обработка персональных данных</a>
+    <a href="" class="footer__link" target="_blank">Политика конфиденциальности</a>
+    <a href="" class="footer__link" target="_blank">Договор оферты</a>
+    <a href="" class="footer__dev" target="_blank">Разработано в Marketing House</a>
+  </div>
 </footer>
 </body>
 

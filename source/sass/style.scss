@@ -1,6 +1,8 @@
 @import "var";
 @import "mixin";
 @import "normalize";
+@import "slick-theme";
+@import "slick";
 @import "fonts";
 @import "global";
 @import "block/header";
@@ -9,4 +11,13 @@
 @import "block/form";
 @import "block/learn";
 @import "block/footer-decor";
+@import "block/get";
+@import "block/expert";
+@import "block/brands";
+@import "block/reviews";
+@import "block/gallery";
+@import "block/process";
+@import "block/program";
+@import "block/price";
+@import "block/footer";
 

@@ -1,0 +1,65 @@
+.gallery {
+  background-color: black;
+  padding-top: 75px;
+  padding-bottom: 97px;
+
+  &__wrapper {
+    max-width: 320px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__title {
+    margin-bottom: 39px;
+  }
+
+
+  &__item {
+    margin-left: 4px;
+    margin-right: 4px;
+    transition: .2s;
+  }
+
+  .slick-slide {
+    opacity: .5;
+  }
+
+  .slick-current {
+    opacity: 1;
+  }
+
+  .slick-dots{
+    bottom: -10px;
+    height: 6px;
+  }
+  .slick-dotted.slick-slider {
+    margin-bottom: 100px;
+  }
+  .slick-dots li{
+    height: 6px;
+    width: 6px;
+  }
+  .slick-dots li button{
+    width: 10px;
+    height: 6px;
+    padding: 0;
+  }
+
+  .slick-dots li button::before {
+    color: white;
+    opacity: 1;
+    font-size: 16px;
+    width: 6px;
+    height: 6px;
+    line-height: 1;
+  }
+  .slick-dots li.slick-active button::before{
+    color: $main_color;
+    font-size: 24px;
+    line-height: 0.7;
+    margin-left: -1px;
+    margin-right: -1px;
+  }
+}
