@@ -12,28 +12,19 @@
 
   <!--  </script>-->
   <!--  <script src="./js/picturefill.min.js" async></script>-->
-  <script src="js/jQuery.js" defer></script>
-  <script src="js/slick.min.js" defer></script>
-  <script src="js/main.js" defer></script>
+  <script src="js/jQuery.js" defer=""></script>
+  <script src="js/slick.min.js" defer=""></script>
+  <script src="js/main.js" defer=""></script>
 </head>
 
 <body>
 
 <div style="display:none">
-  <include src="build/img/sprite.svg"></include>
+  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-1-small"><path d="M0 26h19.341L20 20.429h-5.388L17.132 0H9.496l-7.48 2.515.232 4.836 5.194-.425-1.667 13.503H.66L0 26z" fill="#00A9CF"></path></symbol><symbol id="icon-1"><path d="M.95 101H75.8l2.55-21.6H57.5L67.25.2H37.7L8.75 9.95l.9 18.75 20.1-1.65L23.3 79.4H3.5L.95 101z" fill="#00A9CF"></path></symbol><symbol id="icon-2-small"><path d="M12.173 20.333C17.012 16.81 22 12.483 22 7.505S18.575 0 12.917 0C9.604 0 6.105 1.11 2.755 3.178l2.084 5.476c2.457-1.302 4.765-1.915 6.105-1.915 1.861 0 2.383.92 2.383 1.915 0 3.446-6.515 7.888-12.769 12.406L0 26h20.958l.893-7.505H15.97l-.261 2.03h-3.536v-.192z" fill="#00A9CF"></path></symbol><symbol id="icon-2"><path d="M49.85 79.8c19.5-13.8 39.6-30.75 39.6-50.25S75.65.15 52.85.15C39.5.15 25.4 4.5 11.9 12.6l8.4 21.45c9.9-5.1 19.2-7.5 24.6-7.5 7.5 0 9.6 3.6 9.6 7.5 0 13.5-26.25 30.9-51.45 48.6L.8 102h84.45l3.6-29.4h-23.7l-1.05 7.95H49.85v-.75z" fill="#00A9CF"></path></symbol><symbol id="icon-3-small"><path d="M17.906 11.368c2.87-1.2 4.094-3.64 4.094-5.403C22 2.89 19.82 0 13.774 0 10.33 0 7.576.488 2.908 2.439l1.875 5.44c2.946-1.276 4.897-1.726 6.58-1.726 1.301 0 1.837.638 1.837 1.276 0 1.65-2.22 2.4-6.504 3.189l.841 4.764c1.646-.225 2.41-.262 2.832-.262 1.454 0 2.716.488 2.716 1.8 0 2.214-2.18 2.777-4.362 2.777-1.798 0-3.481-.45-6.198-1.313L0 23.936C2.831 25.7 7.805 26 9.336 26c8.073 0 12.55-4.09 12.55-9.23 0-1.913-1.034-4.201-4.018-5.177l.038-.225z" fill="#00A9CF"></path></symbol><symbol id="icon-3"><path d="M70.7 46.15c11.25-4.8 16.05-14.55 16.05-21.6C86.75 12.25 78.2.7 54.5.7 41 .7 30.2 2.65 11.9 10.45l7.35 21.75c11.55-5.1 19.2-6.9 25.8-6.9 5.1 0 7.2 2.55 7.2 5.1 0 6.6-8.7 9.6-25.5 12.75l3.3 19.05c6.45-.9 9.45-1.05 11.1-1.05 5.7 0 10.65 1.95 10.65 7.2 0 8.85-8.55 11.1-17.1 11.1-7.05 0-13.65-1.8-24.3-5.25L.5 96.4c11.1 7.05 30.6 8.25 36.6 8.25 31.65 0 49.2-16.35 49.2-36.9 0-7.65-4.05-16.8-15.75-20.7l.15-.9z" fill="#00A9CF"></path></symbol><symbol id="icon-4-small"><path d="M11.05 0L.563 13.89 0 18.61h10.376l-.224 1.857H8.316L7.679 26h12.287l.637-5.533h-2.06l.224-1.857h3.559L23 12.961h-3.559L20.977 0H11.05zm.712 7.545l-.674 5.416H7.754l2.023-2.824 1.798-2.592h.187z" fill="#00A9CF"></path></symbol><symbol id="icon-4"><path d="M44.85.2l-42 53.85L.6 72.35h41.55l-.9 7.2H33.9L31.35 101h49.2l2.55-21.45h-8.25l.9-7.2H90l2.7-21.9H78.45L84.6.2H44.85zm2.85 29.25l-2.7 21H31.65l8.1-10.95 7.2-10.05h.75z" fill="#00A9CF"></path></symbol><symbol id="icon-5-small"><path d="M9.668 14.106c1.56 0 3.007.61 3.007 2.21 0 2.25-1.903 3.012-4.111 3.012-1.75 0-3.464-.343-6.204-1.334L0 23.827C2.855 25.695 7.803 26 9.325 26c6.928 0 12.104-3.85 12.104-10.14 0-4.804-3.083-7.55-9.173-7.55-.495 0-1.18.039-1.865.153l.647-2.935h4.035l-.229 1.83h6.243L22 0H5.024L2.208 13.114l3.654 1.754c1.332-.496 2.892-.762 3.806-.762z" fill="#00A9CF"></path></symbol><symbol id="icon-5"><path d="M38.95 55.7c6.15 0 11.85 2.4 11.85 8.7 0 8.85-7.5 11.85-16.2 11.85-6.9 0-13.65-1.35-24.45-5.25L.85 93.95c11.25 7.35 30.75 8.55 36.75 8.55 27.3 0 47.7-15.15 47.7-39.9 0-18.9-12.15-29.7-36.15-29.7-1.95 0-4.65.15-7.35.6l2.55-11.55h15.9l-.9 7.2h24.6L87.55.2h-66.9L9.55 51.8l14.4 6.9c5.25-1.95 11.4-3 15-3z" fill="#00A9CF"></path></symbol><symbol id="icon-arrow"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.934 4L0 0h1.831L6 4 1.831 8H0l3.934-4z" fill="#00A9CF"></path></symbol><symbol id="icon-mail"><path opacity=".3" d="M15.864 0H2.136C.958 0 0 .943 0 2.101v9.798C0 13.058.958 14 2.136 14h13.728C17.042 14 18 13.057 18 11.899V2.101C18 .943 17.042 0 15.864 0zm0 12.145H2.136c-.173 0-.325-.115-.325-.246V3.397L8.02 8.764c.127.11.289.17.456.17h1.048c.167 0 .329-.06.456-.17l6.209-5.368V11.9c0 .131-.152.246-.325.246zM9 7.093L2.962 1.855h12.076L9 7.093z"></path></symbol><symbol id="icon-phone"><path opacity=".3" d="M3.432 11.3A18.036 18.036 0 0 0 9.431 16c.877.415 2.05.908 3.357.993.081.004.159.007.24.007.877 0 1.581-.303 2.155-.926a.094.094 0 0 0 .014-.018c.205-.247.437-.469.68-.705.166-.158.335-.324.497-.493.75-.782.75-1.775-.007-2.533L14.25 10.21c-.36-.374-.79-.571-1.24-.571-.451 0-.884.197-1.254.567l-1.261 1.261a6.2 6.2 0 0 0-.349-.183 4.336 4.336 0 0 1-.387-.211c-1.149-.73-2.192-1.68-3.188-2.903-.504-.638-.842-1.173-1.078-1.72.33-.299.64-.612.94-.919.106-.109.215-.218.324-.327.38-.38.585-.82.585-1.268 0-.448-.2-.888-.585-1.268l-1.05-1.05c-.123-.123-.239-.243-.359-.366-.232-.24-.475-.487-.715-.709C4.27.187 3.844 0 3.393 0c-.447 0-.877.187-1.254.546L.822 1.863c-.48.48-.75 1.06-.807 1.734-.067.841.088 1.736.49 2.818C1.12 8.088 2.05 9.64 3.432 11.3zM.875 3.67c.042-.468.221-.859.56-1.197l1.31-1.31c.204-.198.43-.3.648-.3.215 0 .433.102.634.306.236.219.458.448.698.69l.366.374 1.05 1.05c.218.218.331.44.331.659 0 .218-.113.44-.331.659-.11.109-.219.221-.328.33-.327.332-.634.645-.972.945l-.018.017c-.292.293-.246.57-.176.782l.01.028c.272.652.649 1.272 1.237 2.012 1.057 1.303 2.17 2.314 3.396 3.093.152.098.314.176.465.253.14.07.271.138.387.212.015.007.025.014.04.02.115.06.228.089.34.089.283 0 .466-.18.526-.24l1.317-1.317c.205-.204.426-.314.645-.314.268 0 .486.166.623.314l2.125 2.12c.422.423.419.881-.011 1.329-.148.158-.303.31-.469.468-.246.24-.503.486-.736.764-.405.437-.887.642-1.511.642a2.8 2.8 0 0 1-.183-.008c-1.156-.073-2.23-.524-3.037-.908a17.134 17.134 0 0 1-5.71-4.474C2.787 9.176 1.903 7.704 1.318 6.126.956 5.157.818 4.379.875 3.67z"></path></symbol></svg>
 </div>
 
 <header class="header">
   <div class="header__wrapper">
-    <!--      <img src="img/proslide.jpg" class="" alt="">-->
-    <!--      <div class="btn-screen__wrapper">-->
-    <!--        <a href="conf.docx" class="btn-screen" target="_blank">-->
-    <!--          Пользовательское соглашение-->
-    <!--        </a>-->
-    <!--        <a href="oferta.docx" class="btn-screen" target="_blank">-->
-    <!--          Оферта-->
-    <!--        </a>-->
-    <!--      </div>-->
     <a href="/" class="header__logo-link">
       <img src="img/logo.svg" alt="logo" class="header__logo" width="160">
     </a>
@@ -66,8 +57,16 @@
 </header>
 <section class="act">
   <div class="act__wrapper">
+    <div class="act__man-wrapper">
+      <img src="img/man.png" alt="man" width="262" class="act__man">
+    </div>
     <h1 class="act__title">
-      Научись манипулировать вниманием в&nbsp;презентациях,
+      <span>
+        Научись
+      </span>
+      <span>манипулировать</span>
+      <span>вниманием</span>
+      <span> &nbspв&nbsp;презентациях,</span>
     </h1>
     <p class="act__description">
       освоив 5 крутых дизайнерских лайфхаков, уже сегодня
@@ -79,22 +78,8 @@
     <h3 class="act__form-title">
       Заполните форму и получите доступ к первому уроку нашего&nbsp;ведущего курса бесплатно
     </h3>
-    <div class="form">
-      <form action="#">
-        <label for="" class="form__label">
-          <input type="text" class="form__input" placeholder="Введите e-mail">
-          <svg class="form__icon form__icon--email" width="18" height="14">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-mail"></use>
-          </svg>
-        </label>
-        <label for="" class="form__label">
-          <input type="tel" class="form__input" placeholder="Введите номер телефона">
-          <svg class="form__icon form__icon--tel" width="16" height="17">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use>
-          </svg>
-        </label>
-        <button class="form__btn">Получить доступ к 1 уроку</button>
-      </form>
+    <div class="form gc-form-wrapper">
+      <script id="c773c506df604b060a6c663bdbf5ed59993384ad" src="http://get.proslides.school/pl/lite/widget/script?id=147708"></script>
     </div>
   </div>
 </section>
@@ -108,13 +93,6 @@
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-1"></use>
         </svg>
       </div>
-<!--      <div class="learn__item">-->
-<!--        <h3 class="learn__item-title">Картинки и иконки</h3>-->
-<!--        <p class="learn__subtitle">Где искать и как их эффектно использовать в презентации! </p>-->
-<!--        <svg class="learn__number" width="97" height="210">-->
-<!--          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-2"></use>-->
-<!--        </svg>-->
-<!--      </div>-->
       <div class="learn__item">
         <h3 class="learn__item-title">Манипуляция вниманием</h3>
         <p class="learn__subtitle">С помощью дизайна слайдов и анимации. Секретные лайфхаки!</p>
@@ -204,22 +182,9 @@
         </div>
       </div>
     </div>
-    <div class="form form--white">
-      <form action="#">
-        <label for="" class="form__label">
-          <input type="text" class="form__input" placeholder="Введите e-mail">
-          <svg class="form__icon form__icon--email" width="18" height="14">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-mail"></use>
-          </svg>
-        </label>
-        <label for="" class="form__label">
-          <input type="tel" class="form__input" placeholder="Введите номер телефона">
-          <svg class="form__icon form__icon--tel" width="16" height="17">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use>
-          </svg>
-        </label>
-        <button class="form__btn">Получить доступ к 1 уроку</button>
-      </form>
+
+    <div class="form form--white gc-form-wrapper">
+      <script id="621564b6029d00d30319877758f5e64011974399" src="http://get.proslides.school/pl/lite/widget/script?id=147714"></script>
     </div>
   </div>
 </section>
@@ -463,23 +428,26 @@
     </div>
   </div>
   <div class="gallery__wrapper">
-    <div class="form form--white">
-      <form action="#">
-        <label for="" class="form__label">
-          <input type="text" class="form__input" placeholder="Введите e-mail">
-          <svg class="form__icon form__icon--email" width="18" height="14">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-mail"></use>
-          </svg>
-        </label>
-        <label for="" class="form__label">
-          <input type="tel" class="form__input" placeholder="Введите номер телефона">
-          <svg class="form__icon form__icon--tel" width="16" height="17">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use>
-          </svg>
-        </label>
-        <button class="form__btn">Получить доступ к 1 уроку</button>
-      </form>
+    <div class="form form--white gc-form-wrapper">
+      <script id="621564b6029d00d30319877758f5e64011974399" src="http://get.proslides.school/pl/lite/widget/script?id=147714"></script>
     </div>
+<!--    <div class="form form&#45;&#45;white">-->
+<!--      <form action="#">-->
+<!--        <label for="" class="form__label">-->
+<!--          <input type="text" class="form__input" placeholder="Введите e-mail">-->
+<!--          <svg class="form__icon form__icon&#45;&#45;email" width="18" height="14">-->
+<!--            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-mail"></use>-->
+<!--          </svg>-->
+<!--        </label>-->
+<!--        <label for="" class="form__label">-->
+<!--          <input type="tel" class="form__input" placeholder="Введите номер телефона">-->
+<!--          <svg class="form__icon form__icon&#45;&#45;tel" width="16" height="17">-->
+<!--            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use>-->
+<!--          </svg>-->
+<!--        </label>-->
+<!--        <button class="form__btn">Получить доступ к 1 уроку</button>-->
+<!--      </form>-->
+<!--    </div>-->
   </div>
 </section>
 <section class="process">
@@ -737,7 +705,9 @@
           <div class="price__include-item">Проверка финального задания</div>
           <div class="price__include-item">Чат поддержки</div>
         </div>
-        <button class="btn price__btn">Приобрести курс</button>
+        <div class="gc-btn-wrapper">
+          <script id="0eee553ad1b897d3d104f2b710d489efab18ff35" src="http://get.proslides.school/pl/lite/widget/script?id=147711"></script>
+        </div>
       </div>
       <div class="price__item">
         <h3 class="price__name">
@@ -785,8 +755,16 @@
 </section>
 <section class="act">
   <div class="act__wrapper">
+    <div class="act__man-wrapper">
+      <img src="img/man.png" alt="man" width="262" class="act__man">
+    </div>
     <h1 class="act__title">
-      Научись манипулировать вниманием в презентациях,
+      <span>
+        Научись
+      </span>
+      <span>манипулировать</span>
+      <span>вниманием</span>
+      <span> &nbspв&nbsp;презентациях,</span>
     </h1>
     <p class="act__description">
       освоив 5 крутых дизайнерских лайфхаков, уже сегодня
@@ -796,24 +774,10 @@
       <span>«Что скрывает Powerpoint»!</span>
     </p>
     <h3 class="act__form-title">
-      Заполните форму и получите доступ к первому уроку нашего ведущего курса бесплатно
+      Заполните форму и получите доступ к первому уроку нашего&nbsp;ведущего курса бесплатно
     </h3>
-    <div class="form">
-      <form action="#">
-        <label for="" class="form__label">
-          <input type="text" class="form__input" placeholder="Введите e-mail">
-          <svg class="form__icon form__icon--email" width="18" height="14">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-mail"></use>
-          </svg>
-        </label>
-        <label for="" class="form__label">
-          <input type="tel" class="form__input" placeholder="Введите номер телефона">
-          <svg class="form__icon form__icon--tel" width="16" height="17">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-phone"></use>
-          </svg>
-        </label>
-        <button class="form__btn">Получить доступ к 1 уроку</button>
-      </form>
+    <div class="form gc-form-wrapper">
+      <script id="c773c506df604b060a6c663bdbf5ed59993384ad" src="http://get.proslides.school/pl/lite/widget/script?id=147708"></script>
     </div>
   </div>
 </section>
@@ -823,8 +787,8 @@
       © 2019   |   Все права защищены
     </div>
     <a href="" class="footer__link" target="_blank">Обработка персональных данных</a>
-    <a href="" class="footer__link" target="_blank">Политика конфиденциальности</a>
-    <a href="" class="footer__link" target="_blank">Договор оферты</a>
+    <a href="conf.docx" class="footer__link" target="_blank">Политика конфиденциальности</a>
+    <a href="oferta.docx" class="footer__link" target="_blank">Договор оферты</a>
   </div>
 </footer>
 </body>

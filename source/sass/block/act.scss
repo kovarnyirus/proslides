@@ -1,11 +1,11 @@
-.act{
+.act {
   background-color: $main_color;
   color: white;
   background-image: url("../img/bg-dots-light.png");
   background-repeat: repeat;
   padding-bottom: 51px;
 
-  &__wrapper{
+  &__wrapper {
     max-width: 320px;
     padding-left: 40px;
     padding-right: 40px;
@@ -13,7 +13,11 @@
     margin-left: auto;
     margin-right: auto;
   }
-  &__title{
+
+  .act__man-wrapper{
+  }
+
+  &__title {
     margin-top: 20px;
     font-style: normal;
     font-weight: 800;
@@ -21,24 +25,36 @@
     line-height: 140%;
     text-transform: uppercase;
     margin-bottom: 24px;
+    margin-top: -45px;
+    span{
+      background-color: white;
+      margin-bottom: 2px;
+      color: black;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
   }
-  &__description{
+
+  &__description {
     font-size: 14px;
     line-height: 140%;
     margin-bottom: 5px;
   }
-  &__subtitle{
+
+  &__subtitle {
     font-style: normal;
     font-weight: 800;
     font-size: 14px;
     line-height: 140%;
     padding-top: 0;
     margin-bottom: 33px;
-    span{
+
+    span {
       margin-left: -9px;
     }
   }
-  &__form-title{
+
+  &__form-title {
     font-weight: 800;
     font-size: 12px;
     line-height: 140%;
