@@ -11,7 +11,7 @@ $( document ).ready(function() {
   });
   $('.price__list').slick({
     dots: true,
-    infinite: true,
+    infinite: false,
     slidesToShow: 1,
     centerMode: true,
     arrows: false,
