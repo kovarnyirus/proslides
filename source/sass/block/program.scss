@@ -111,3 +111,11 @@
     margin-bottom: 0;
   }
 }
+
+@media (min-width: 768px) {
+  .program {
+    &__wrapper {
+      max-width: 768px;
+    }
+  }
+}

@@ -35,7 +35,8 @@
       padding-bottom: 42px;
       transition: .2s;
     }
-    .main-nav__item{
+
+    .main-nav__item {
       min-width: 320px;
       max-width: 320px;
       margin-left: auto;
@@ -111,4 +112,38 @@
   font-size: 16px;
   line-height: 140%;
   text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .main-nav {
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding-left: 20px;
+
+    &__list {
+      height: auto;
+      opacity: 1;
+      visibility: visible;
+      flex-direction: row;
+      margin-top: 0;
+      margin-bottom: 0;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    &__toggle {
+      display: none;
+    }
+
+    &__link {
+      font-size: 13px;
+      transition: .3s;
+      border-bottom: 1px solid rgba(255, 255, 255, 0);
+
+      &:hover {
+        transition: .5s;
+        border-bottom: 1px solid #ffffff;
+      }
+    }
+  }
 }

@@ -12,7 +12,8 @@
   &__item {
     margin-bottom: 132px;
     position: relative;
-    &:last-child{
+
+    &:last-child {
       margin-bottom: 0;
     }
   }
@@ -53,5 +54,33 @@
     top: -80px;
     left: -25px;
     z-index: -1;
+  }
+}
+
+@media (min-width: 768px) {
+  .learn {
+    &.footer-decor{
+      padding-bottom: 0;
+    }
+
+    &__wrapper {
+      max-width: 768px;
+      padding-top: 140px;
+      padding-bottom: 0;
+    }
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      width: 50%;
+      padding-right: 2%;
+    }
+
+    &__number {
+      left: -30px;
+    }
   }
 }

@@ -73,3 +73,10 @@
     margin-top: -5px;
   }
 }
+@media (min-width: 768px) {
+  .reviews {
+    &__wrapper {
+      max-width: 768px;
+    }
+  }
+}

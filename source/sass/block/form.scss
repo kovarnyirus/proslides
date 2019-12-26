@@ -33,12 +33,14 @@
     justify-content: center;
     cursor: pointer;
     transition: .2s;
-    &:hover{
+
+    &:hover {
       padding-left: 0;
       padding-right: 0;
       background-color: #383838;
     }
-    &:active{
+
+    &:active {
       padding-left: 0;
       padding-right: 0;
       background-color: #686868;
@@ -53,31 +55,51 @@
     fill: #000000;
     transform: translateY(-50%);
   }
-  &--white{
-    .form__btn{
+
+  &--white {
+    .form__btn {
       background-color: white;
       color: black;
-      &:hover{
+
+      &:hover {
         padding-left: 0;
         padding-right: 0;
         background: #E2E2E2;
       }
-      &:active{
+
+      &:active {
         padding-left: 0;
         padding-right: 0;
         background: #CDCDCD;
       }
     }
-    .form__input{
+
+    .form__input {
       border: 3px solid #ffffff;
       background-color: black;
       color: white;
-      &::placeholder{
+
+      &::placeholder {
         opacity: 0.7;
       }
     }
-    .form__icon{
+
+    .form__icon {
       fill: white;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .gc-form-wrapper {
+    max-width: 50%;
+
+    &--get {
+      max-width: 100%;
+    }
+
+    &--gallery {
+      max-width: 100%;
     }
   }
 }

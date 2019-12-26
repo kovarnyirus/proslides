@@ -63,3 +63,26 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .expert {
+    &__wrapper {
+      max-width: 768px;
+    }
+    &__header{
+      display: flex;
+    }
+    &__avatar-wrapper{
+      margin-bottom: 0;
+      margin-right: 10px;
+      min-width: 200px;
+    }
+    &__label{
+      margin-bottom: 10px;
+    }
+    &__subtitle{
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+  }
+}

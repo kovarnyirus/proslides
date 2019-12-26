@@ -14,9 +14,6 @@
     margin-right: auto;
   }
 
-  .act__man-wrapper{
-  }
-
   &__title {
     margin-top: 20px;
     font-style: normal;
@@ -26,7 +23,8 @@
     text-transform: uppercase;
     margin-bottom: 24px;
     margin-top: -45px;
-    span{
+
+    span {
       background-color: white;
       margin-bottom: 2px;
       color: black;
@@ -60,5 +58,59 @@
     line-height: 140%;
     margin-top: 0;
     margin-bottom: 19px;
+  }
+}
+
+@media (min-width: 768px) {
+  .act {
+    position: relative;
+
+    &__wrapper {
+      max-width: 768px;
+    }
+
+    &__man-wrapper {
+      width: 50%;
+      position: absolute;
+      bottom: -4px;
+      right: 0;
+    }
+
+    &__man {
+      width: 100%;
+      max-width: 500px;
+    }
+
+    &__title {
+      margin-top: 20px;
+      font-size: 35px;
+      max-width: 995px;
+      margin-bottom: 10px;
+
+      span {
+        background-color: inherit;
+        color: white;
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+    &__description {
+      max-width: 50%;
+      font-size: 19px;
+      line-height: 140%;
+
+    }
+
+    &__subtitle {
+      max-width: 50%;
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+
+    &__form-title {
+      max-width: 50%;
+      font-size: 12px;
+    }
   }
 }
