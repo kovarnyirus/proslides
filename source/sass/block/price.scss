@@ -176,3 +176,48 @@
     }
   }
 }
+
+@media (min-width: 1478px) {
+  .price {
+    padding-top: 124px;
+
+    &__wrapper {
+      max-width: 1560px;
+    }
+
+    &__title {
+      margin-bottom: 69px;
+    }
+
+    &__item {
+      width: 30%;
+      max-width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 42px;
+      padding-bottom: 50px;
+    }
+    &__name{
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 140%;
+      padding-bottom: 22px;
+    }
+    &__old-cost{
+      font-size: 30px;
+      line-height: 160%;
+    }
+    &__cost{
+      font-size: 40px;
+      line-height: 160%;
+      margin-bottom: 27px;
+    }
+    &__include-item{
+      font-size: 16px;
+      line-height: 130%;
+      &:last-child{
+        margin-bottom: 54px;
+      }
+    }
+  }
+}

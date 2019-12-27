@@ -119,3 +119,38 @@
     }
   }
 }
+
+@media (min-width: 1478px) {
+  .program {
+    padding-bottom: 148px;
+    padding-top: 163px;
+    &__wrapper {
+      max-width: 1050px;
+    }
+    &__title{
+      margin-bottom: 60px;
+    }
+    &__accordion-title{
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 140%;
+    }
+    &__accordion-text{
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 160%;
+    }
+    &__item-head{
+      margin-bottom: 12px;
+    }
+    &__accordion-toggle{
+      width: 34px;
+      &:before{
+        width: 34px;
+      }
+      &:after{
+        height: 34px;
+      }
+    }
+  }
+}
