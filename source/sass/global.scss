@@ -89,3 +89,13 @@ input[type="checkbox"].visuallyhidden {
   font-size: 1rem;
 }
 
+@media (min-width: 1478px) {
+  h2{
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 140%;
+    &:before{
+      left: -40px;
+    }
+  }
+}

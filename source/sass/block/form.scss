@@ -103,3 +103,18 @@
     }
   }
 }
+
+@media (min-width: 1478px) {
+  .gc-form-wrapper {
+    max-width: 460px;
+
+    &--get {
+      max-width: 100%;
+    }
+
+    &--gallery {
+      max-width: 100%;
+      width: 50%;
+    }
+  }
+}

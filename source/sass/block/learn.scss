@@ -59,7 +59,7 @@
 
 @media (min-width: 768px) {
   .learn {
-    &.footer-decor{
+    &.footer-decor {
       padding-bottom: 0;
     }
 
@@ -81,6 +81,40 @@
 
     &__number {
       left: -30px;
+    }
+  }
+}
+
+@media (min-width: 1478px) {
+  .learn {
+    &__wrapper {
+      max-width: 1560px;
+    }
+
+    &__list {
+      justify-content: center;
+    }
+
+    &__item {
+      width: 50%;
+    }
+
+    &__number{
+      transform: scale(1.3);
+      top: -68px;
+      left: -20px;
+    }
+
+    &__item-title {
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 140%;
+    }
+
+    &__subtitle {
+      font-size: 20px;
+      line-height: 140%;
+      max-width: 75%;
     }
   }
 }

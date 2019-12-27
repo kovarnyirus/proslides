@@ -85,7 +85,6 @@
 
     &__item {
       width: 30%;
-
     }
 
     &__title {
@@ -94,6 +93,65 @@
 
     &__item-user {
       font-size: 14px;
+    }
+  }
+}
+
+@media (min-width: 1478px) {
+  .get {
+    padding-top: 144px;
+    padding-bottom: 130px;
+
+    &__wrapper {
+      max-width: 1560px;
+    }
+
+    &__title {
+      margin-bottom: 75px;
+      font-weight: 800;
+      font-size: 42px;
+      line-height: 140%;
+    }
+
+    &__item {
+      width: 463px;
+    }
+
+    &__item-user {
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 140%;
+      padding-left: 50px;
+      padding-right: 48px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-bottom: 21px;
+    }
+    &__text-white-block{
+      padding-right: 46px;
+      padding-left: 50px;
+      padding-bottom: 47px;
+      padding-top: 37px;
+      p{
+        font-size: 20px;
+        line-height: 160%;
+      }
+    }
+
+    &__text-black-block{
+      padding-top: 30px;
+      padding-left: 50px;
+      padding-right: 45px;
+      padding-bottom: 42px;
+      p{
+        font-size: 20px;
+        line-height: 160%;
+      }
+    }
+
+    &__text{
+      font-size: 20px;
+      line-height: 160%;
     }
   }
 }
