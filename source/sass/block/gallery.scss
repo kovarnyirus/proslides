@@ -112,6 +112,38 @@
   }
 }
 
+@media (min-width: 1120px) {
+  .gallery {
+    padding-top: 100px;
+    &__wrapper {
+      max-width: 1200px;
+      display: flex;
+      justify-content: center;
+    }
+    &__title{
+      text-align: center;
+      margin-bottom: 70px;
+    }
+
+    &__video-wrapper {
+      max-width: 1048px;
+      padding-left: 40px;
+      padding-right: 40px;
+      height: 550px;
+    }
+
+    &__video {
+      width: 100%;;
+
+      iframe {
+        width: 100%;
+        min-height: 450px;
+      }
+    }
+  }
+}
+
+
 @media (min-width: 1478px) {
   .gallery {
     padding-top: 150px;

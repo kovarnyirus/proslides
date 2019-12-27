@@ -148,6 +148,26 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .main-nav {
+    justify-content: flex-end;
+
+    &__item {
+      margin-left: 42px;
+    }
+
+    &__list {
+      justify-content: flex-end;
+    }
+
+    &__link {
+      font-size: 14px;
+      line-height: 140%;
+    }
+  }
+}
+
+
 @media (min-width: 1478px) {
   .main-nav {
     justify-content: flex-end;

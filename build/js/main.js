@@ -26,11 +26,12 @@ $(document).ready(function () {
         }
       },
       {
-        breakpoint: 500,
+        breakpoint: 767,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
           variableWidth: true,
+          centerMode: true,
           dots: true,
         }
       }
@@ -48,14 +49,6 @@ $(document).ready(function () {
         breakpoint: 999999,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
-          adaptiveHeight: true,
-        }
-      },
-      {
-        breakpoint: 1478,
-        settings: {
-          slidesToShow: 1,
           slidesToScroll: 1,
           adaptiveHeight: true,
         }

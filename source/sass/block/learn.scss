@@ -85,6 +85,40 @@
   }
 }
 
+@media (min-width: 1120px) {
+  .learn {
+    &__wrapper {
+      max-width: 1200px;
+    }
+
+    &__list {
+      justify-content: center;
+    }
+
+    &__item {
+      width: 50%;
+    }
+
+    &__number{
+      transform: scale(1.2);
+      top: -72px;
+      left: -20px;
+    }
+
+    &__item-title {
+      font-weight: 800;
+      font-size: 27px;
+      line-height: 140%;
+    }
+
+    &__subtitle {
+      font-size: 17px;
+      line-height: 140%;
+      max-width: 75%;
+    }
+  }
+}
+
 @media (min-width: 1478px) {
   .learn {
     &__wrapper {

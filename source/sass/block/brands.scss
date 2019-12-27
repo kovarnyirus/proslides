@@ -24,7 +24,21 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1120px) {
+  .brands {
+    margin-top: 80px;
+    margin-bottom: 90px;
+
+    &__item {
+      width: 16.6%;
+      min-width: 16.6%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+@media (min-width: 1478px) {
   .brands {
     margin-top: 110px;
     margin-bottom: 140px;

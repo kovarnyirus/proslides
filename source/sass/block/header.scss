@@ -43,6 +43,25 @@
 }
 
 
+@media (min-width: 1120px) {
+  .header {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    &__wrapper {
+      max-width: 100%;
+      flex-direction: row;
+    }
+
+    &__logo-link {
+      min-width: 239px;
+    }
+
+    &__logo {
+      width: 239px;
+    }
+  }
+}
+
 @media (min-width: 1478px) {
   .header {
     padding-top: 18px;
