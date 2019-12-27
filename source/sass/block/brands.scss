@@ -43,15 +43,12 @@
     margin-top: 110px;
     margin-bottom: 140px;
     &__list {
-      padding-left: -65px;
+      margin-left: -65px;
       margin-right: -65px;
     }
 
     &__item {
-      padding-left: 65px;
-      padding-right: 65px;
       width: 100%;
-      max-width: 257px;
     }
   }
 }
