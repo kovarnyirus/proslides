@@ -172,11 +172,20 @@
     padding-top: 163px;
 
     &__wrapper {
-      max-width: 1050px;
+      max-width: 980px;
+      padding-right: 22px;
     }
 
     &__title {
-      margin-bottom: 60px;
+      margin-bottom: 58px;
+    }
+
+    &__item{
+      padding-top: 34px;
+      margin-bottom: 25px;
+      &:last-child {
+        padding-bottom: 25px;
+      }
     }
 
     &__accordion-title {

@@ -159,13 +159,12 @@
 }
 
 
-
-
 @media (min-width: 768px) {
   .price {
     &__wrapper {
       max-width: 768px;
     }
+
     &__item {
       min-width: 100px;
       max-width: 100%;
@@ -192,26 +191,29 @@
       padding-bottom: 45px;
     }
 
-    &__name{
+    &__name {
       font-weight: 800;
       font-size: 24px;
       line-height: 140%;
       padding-bottom: 22px;
     }
 
-    &__old-cost{
+    &__old-cost {
       font-size: 20px;
       line-height: 160%;
     }
-    &__cost{
+
+    &__cost {
       font-size: 35px;
       line-height: 160%;
       margin-bottom: 27px;
     }
-    &__include-item{
+
+    &__include-item {
       font-size: 16px;
       line-height: 130%;
-      &:last-child{
+
+      &:last-child {
         margin-bottom: 54px;
       }
     }
@@ -222,13 +224,23 @@
 @media (min-width: 1478px) {
   .price {
     padding-top: 124px;
+    padding-bottom: 75px;
 
     &__wrapper {
-      max-width: 1560px;
+      max-width: 1543px;
+    }
+
+    &__title-wrapper{
+      padding-left: 40px;
     }
 
     &__title {
-      margin-bottom: 69px;
+      margin-bottom: 65px;
+    }
+
+    &__list{
+      margin-left: 0px;
+      margin-right: 0px;
     }
 
     &__item {
@@ -238,26 +250,48 @@
       padding-right: 50px;
       padding-top: 42px;
       padding-bottom: 50px;
+      margin-left: 15px;
+      margin-right: 15px;
+      &:first-child{
+        margin-left: 0;
+      }
+      &:last-child{
+        margin-right: 0;
+      }
     }
-    &__name{
+
+    &__name {
       font-weight: 800;
       font-size: 30px;
       line-height: 140%;
-      padding-bottom: 22px;
+      padding-bottom: 15px;
     }
-    &__old-cost{
+
+    &__old-cost {
       font-size: 30px;
       line-height: 160%;
     }
-    &__cost{
+
+    &__cost {
       font-size: 40px;
       line-height: 160%;
-      margin-bottom: 27px;
+      margin-bottom: 28px;
     }
-    &__include-item{
+
+    &__include-item {
       font-size: 16px;
       line-height: 130%;
-      &:last-child{
+      padding-left: 25px;
+      margin-bottom: 17px;
+      &:before{
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 6px;
+        width: 8px;
+        height: 10px;
+      }
+
+      &:last-child {
         margin-bottom: 54px;
       }
     }

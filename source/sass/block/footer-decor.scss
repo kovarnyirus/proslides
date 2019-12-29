@@ -37,3 +37,45 @@
     }
   }
 }
+
+
+@media (min-width: 1478px) {
+  .footer-decor {
+    position: relative;
+    padding-bottom: 50px;
+
+    &:before {
+      position: absolute;
+      display: block;
+      content: '';
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 30px;
+      background-color: $main_color;
+    }
+
+    &:after {
+      position: absolute;
+      display: block;
+      content: '';
+      bottom: 0;
+      left: 0;
+      width: 30px;
+      height: 128px;
+      background-color: $main_color;
+    }
+    &--black {
+      &:before,
+      &:after {
+        background-color: black;
+      }
+    }
+    &--white {
+      &:before,
+      &:after {
+        background-color: white;
+      }
+    }
+  }
+}

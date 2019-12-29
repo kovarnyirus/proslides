@@ -50,6 +50,7 @@
     &__wrapper {
       max-width: 100%;
       flex-direction: row;
+
     }
 
     &__logo-link {
@@ -64,11 +65,13 @@
 
 @media (min-width: 1478px) {
   .header {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 20px;
+    padding-bottom: 16px;
     &__wrapper {
       max-width: 100%;
       flex-direction: row;
+      padding-left: 63px;
+      padding-right: 53px;
     }
 
     &__logo-link {
