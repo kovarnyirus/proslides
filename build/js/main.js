@@ -22,6 +22,16 @@ $(document).ready(function () {
           slidesToShow: 3,
           slidesToScroll: 1,
           adaptiveHeight: true,
+          variableWidth: true,
+          dots: false,
+        }
+      },
+      {
+        breakpoint: 999999,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          adaptiveHeight: true,
           dots: false,
         }
       },
@@ -39,10 +49,10 @@ $(document).ready(function () {
   });
 
   $('.reviews__list').slick({
-    dots: false,
     infinite: false,
     slidesToShow: 1,
     arrows: false,
+    dots: true,
     adaptiveHeight: true,
     responsive: [
       {
