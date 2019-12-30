@@ -2,8 +2,9 @@
   padding-top: 50px;
   background-color: black;
   padding-bottom: 50px;
-  background-image: url("../img/bg-dots-light.png");
-  background-repeat: repeat;
+  background-image: url("../img/bg-light.svg");
+  background-size: 400%;
+
 
   &__wrapper {
     padding-left: 40px;
@@ -174,6 +175,7 @@
 
 @media (min-width: 1120px) {
   .price {
+    background-size: 100%;
     padding-top: 90px;
 
     &__wrapper {

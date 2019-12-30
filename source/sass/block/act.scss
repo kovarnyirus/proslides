@@ -1,9 +1,8 @@
 .act {
   background-color: $main_color;
   color: white;
-  background-image: url("../img/bg-dots-light.png");
-  background-repeat: repeat;
-  padding-bottom: 51px;
+  background-image: url("../img/bg-light.svg");
+  background-size: 400%;
 
   &__wrapper {
     max-width: 320px;
@@ -117,6 +116,7 @@
 
 @media (min-width: 1120px) {
   .act {
+    background-size: 100%;
     padding-bottom: 100px;
     &__wrapper {
       max-width: 1200px;

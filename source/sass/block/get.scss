@@ -3,8 +3,8 @@
   color: white;
   padding-top: 69px;
   padding-bottom: 82px;
-  background-image: url("../img/bg-dots-light.png");
-  background-repeat: repeat;
+  background-image: url("../img/bg-light.svg");
+  background-size: 400%;
 
   &__wrapper {
     max-width: 320px;
@@ -99,6 +99,7 @@
 
 @media (min-width: 1120px) {
   .get {
+    background-size: 100%;
     padding-top: 144px;
     padding-bottom: 130px;
 

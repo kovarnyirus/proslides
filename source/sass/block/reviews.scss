@@ -1,8 +1,8 @@
 .reviews {
   background-color: $main_color;
   padding-top: 57px;
-  background-image: url("../img/bg-dots-light.png");
-  background-repeat: repeat;
+  background-image: url("../img/bg-light.svg");
+  background-size: 400%;
   padding-bottom: 90px;
 
   &__wrapper {
@@ -98,6 +98,7 @@
 
 @media (min-width: 1120px) {
   .reviews {
+    background-size: 100%;
     padding-top: 130px;
 
     &__wrapper {
