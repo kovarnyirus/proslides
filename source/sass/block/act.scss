@@ -2,7 +2,8 @@
   background-color: $main_color;
   color: white;
   background-image: url("../img/bg-light.svg");
-  background-size: 400%;
+  background-size: 200%;
+  padding-bottom: 33px;
 
   &__wrapper {
     max-width: 320px;
@@ -62,7 +63,9 @@
 
 @media (min-width: 768px) {
   .act {
+    padding-bottom: 50px;
     position: relative;
+    background-size: 100%;
 
     &__wrapper {
       max-width: 768px;
@@ -190,10 +193,69 @@
       font-size: 24px;
       line-height: 140%;
       margin-bottom: 29px;
+      max-width: 600px;
     }
+    //&__man-wrapper{
+    //  width: auto;
+    //  right: auto;
+    //  left: 50%;
+    //  transform: translateX(-100px);
+    //}
     &__man {
       width: 100%;
+      //width: 1075px;
       max-width: 1075px;
     }
+  }
+}
+
+.gc-form-wrapper--act{
+  iframe{
+
+    .f-input{
+      border: 3px solid #000000;
+      font-size: 12px;
+      height: 55px;
+    }
+
+    .btn{
+      background-color: #000;
+      color: #fff;
+      width: 100%;
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 12px;
+      line-height: 140%;
+      text-align: center;
+      text-transform: uppercase;
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%!important;
+    }
+
+
+    @media (min-width: 1200px) {
+      .btn{
+        min-height: 83px;
+        font-size: 16px;
+        height: 83px;
+      }
+      .f-btn{
+        min-height: 83px;
+        font-size: 16px;
+        height: 83px;
+
+      }
+      .f-input{
+        min-height: 83px;
+        font-size: 16px;
+        height: 83px;
+      }
+    }
+
+
   }
 }

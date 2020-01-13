@@ -117,17 +117,40 @@
   }
 }
 
-@media (min-width: 1543px) {
+@media (min-width: 768px) {
   .gc-form-wrapper {
-    max-width: 460px;
-
+    max-width: 1230px;
+    width: 100%;
     &--get {
+      width: 100%;
       max-width: 100%;
     }
 
     &--gallery {
+      width: 100%;
+
+    }
+    &--act{
+      max-width: 50%;
+    }
+  }
+}
+
+@media (min-width: 1543px) {
+  .gc-form-wrapper {
+    max-width: 1543px;
+
+    &--get {
+      width: 100%;
       max-width: 100%;
-      width: 50%;
+    }
+
+    &--gallery {
+      width: 100%;
+      max-width: 100%;
+    }
+    &--act{
+      max-width: 460px;
     }
   }
 }
