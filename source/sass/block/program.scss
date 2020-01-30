@@ -13,6 +13,10 @@
   &__title {
     color: black;
   }
+  &__subtitle{
+    font-size: 12px;
+    line-height: 160%;
+  }
 
   &__list {
     margin-top: 35px;
@@ -113,6 +117,33 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    padding-bottom: 1px;
+  }
+
+  li {
+    padding-left: 20px;
+    position: relative;
+    font-size: 12px;
+    line-height: 160%;
+    margin-bottom: 10px;
+
+    &:before {
+      position: absolute;
+      left: 0;
+      top: 5px;
+      display: block;
+      content: '';
+      width: 6px;
+      height: 8px;
+      background-image: url("data:image/svg+xml,%3Csvg width='6' height='8' viewBox='0 0 6 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3.93407 4L-3.52834e-05 0H1.83144L6 4L1.83144 8H-3.52834e-05L3.93407 4Z' fill='%2300A9CF'/%3E%3C/svg%3E%0A");
+    }
+  }
 }
 
 @media (min-width: 768px) {
@@ -147,9 +178,20 @@
       font-size: 16px;
       line-height: 160%;
     }
+    &__subtitle{
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 160%;
+    }
 
     &__item-head {
       margin-bottom: 12px;
+    }
+
+    li {
+      font-size: 16px;
+      line-height: 160%;
+      margin-bottom: 20px;
     }
 
     &__accordion-toggle {
@@ -180,9 +222,10 @@
       margin-bottom: 58px;
     }
 
-    &__item{
+    &__item {
       padding-top: 34px;
       margin-bottom: 25px;
+
       &:last-child {
         padding-bottom: 25px;
       }
@@ -199,6 +242,7 @@
       font-size: 16px;
       line-height: 160%;
     }
+
 
     &__item-head {
       margin-bottom: 12px;
