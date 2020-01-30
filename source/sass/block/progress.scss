@@ -1,0 +1,146 @@
+.progress{
+  background-color: black;
+  &__wrapper {
+    padding-top: 50px;
+    max-width: 320px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+  }
+  &__title{
+    margin-bottom: 30px;
+  }
+  &__item-wrapper{
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+  }
+
+  &__item-img{
+    margin-bottom: 15px;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+
+  &__item-left{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    border-left: 1px solid white;
+    margin-bottom: 30px;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-right: 15px;
+  }
+
+  &__item-right{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    border-left: 1px solid white;
+    margin-bottom: 30px;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-right: 15px;
+  }
+
+  &__item-title{
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 0;
+  }
+  .slick-dots li button::before{
+    opacity: 1;
+  }
+  .slick-dots li.slick-active button::before{
+    color: $main_color;
+    opacity: 1;
+    font-size: 31px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .progress{
+    &__wrapper {
+      max-width: 768px;
+      padding-top: 50px;
+    }
+    &__title{
+      margin-bottom: 50px;
+    }
+
+    &__item-left{
+      width: 34%;
+    }
+
+    &__item-right{
+      width: 66%;
+      .progress__item-img{
+        width: 50%;
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .progress {
+    &__wrapper {
+      max-width: 1200px;
+      padding-top: 120px;
+    }
+    &__title{
+      margin-bottom: 105px;
+    }
+    &__item-title{
+      font-size: 20px;
+    }
+    &__item-left{
+      width: 35%;
+      padding-left: 36px;
+      padding-right: 36px;
+    }
+
+    &__item-right{
+      padding-left: 36px;
+      width: 65%;
+      .progress__item-img{
+        width: 50%;
+        padding-right: 15px;
+      }
+    }
+    .slick-dots li.slick-active button::before{
+      color: $main_color;
+      opacity: 1;
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (min-width: 1543px) {
+  .progress {
+    &__wrapper {
+      padding-top: 165px;
+      max-width: 1543px;
+    }
+    &__title{
+      margin-bottom: 105px;
+    }
+    &__item-left{
+      width: 34%;
+    }
+
+    &__item-right{
+      width: 63%;
+      .progress__item-img{
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

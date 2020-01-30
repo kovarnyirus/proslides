@@ -109,18 +109,17 @@
         min-height: 450px;
       }
     }
+    &__wrapper {
+      max-width: 1200px;
+      display: flex;
+      justify-content: center;
+    }
   }
 }
 
 @media (min-width: 1120px) {
   .gallery {
     padding-top: 100px;
-
-    &__wrapper {
-      max-width: 1200px;
-      display: flex;
-      justify-content: center;
-    }
 
     &__title {
       text-align: center;

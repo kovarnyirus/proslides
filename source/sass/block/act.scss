@@ -1,7 +1,7 @@
 .act {
   background-color: $main_color;
   color: white;
-  background-image: url("../img/bg-light.svg");
+  background-image: url("../img/bg-dark.svg");
   background-size: 200%;
   padding-bottom: 33px;
 
@@ -195,15 +195,9 @@
       margin-bottom: 29px;
       max-width: 600px;
     }
-    //&__man-wrapper{
-    //  width: auto;
-    //  right: auto;
-    //  left: 50%;
-    //  transform: translateX(-100px);
-    //}
+
     &__man {
       width: 100%;
-      //width: 1075px;
       max-width: 827px;
     }
   }

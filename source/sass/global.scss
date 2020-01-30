@@ -89,6 +89,53 @@ input[type="checkbox"].visuallyhidden {
   font-size: 1rem;
 }
 
+.btn{
+  background-color: black;
+  height: 55px ;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 140%;
+  min-width: 238px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: .3s;
+  &:hover{
+    background-color: #383838;
+  }
+  &:active{
+    background-color: #686868;
+  }
+}
+.btn--white{
+  background-color: white;
+  color: black;
+  &:hover{
+    background-color: #E2E2E2;
+  }
+  &:active{
+    background-color: #686868;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    min-width: 460px;
+    max-width: 460px;
+  }
+}
+
 @media (min-width: 1200px) {
   h2{
     font-weight: 800;
@@ -98,7 +145,12 @@ input[type="checkbox"].visuallyhidden {
       left: -40px;
     }
   }
+  .btn{
+    height: 88px;
+
+  }
 }
+
 
 
 @media (min-width: 1543px) {

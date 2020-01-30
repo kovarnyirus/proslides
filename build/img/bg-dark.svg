@@ -1,1 +1,14 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 1920 2302.9" xml:space="preserve"><style>.st0{fill:none}</style><pattern y="2302.9" width="15" height="15" patternUnits="userSpaceOnUse" id="SVGID_1_" viewBox="0.9 -15.9 15 15" overflow="visible"><path class="st0" d="M.9-15.9h15v15H.9z"/><path class="st0" d="M.9-15.9h15v15H.9z"/><path class="st0" d="M.9-15.9h15v15H.9z"/><path class="st0" d="M.9-15.9h15v15H.9z"/><path class="st0" d="M.9-15.9h15v15H.9z"/><path class="st0" d="M.9-15.9h15v15H.9z"/><path d="M15.9-16.9c.5 0 .9.4.9.9s-.4.9-.9.9-.9-.4-.9-.9.4-.9.9-.9zM8.4-9.6c.5 0 .9.4.9.9s-.4.9-.9.9-.9-.3-.9-.9c0-.5.4-.9.9-.9zM.9-16.9c.5 0 .9.4.9.9s-.4.9-.9.9c-.5.1-.9-.3-.9-.8 0-.6.4-1 .9-1zm15 15c.5 0 .9.4.9.9s-.4.9-.9.9-.9-.3-.9-.8.4-1 .9-1zm-15 0c.5 0 .9.4.9.9.1.6-.3 1-.9 1C.4 0 0-.4 0-.9c0-.6.4-1 .9-1z" fill="#39aacd"/></pattern><pattern id="SVGID_2_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 -1 -32.55 -51423.973)"/><path fill="url(#SVGID_2_)" d="M0 0h1920v2302.9H0z"/></svg>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0"
+     y="0" viewBox="0 0 1920 2302.9" xml:space="preserve"><style>.st0{fill:none}</style>
+  <pattern y="2302.9" width="15" height="15" patternUnits="userSpaceOnUse" id="SVGID_1_" viewBox="0.9 -15.9 15 15"
+           overflow="visible"><path class="st0" d="M.9-15.9h15v15H.9z"/>
+    <path class="st0" d="M.9-15.9h15v15H.9z"/>
+    <path class="st0" d="M.9-15.9h15v15H.9z"/>
+    <path class="st0" d="M.9-15.9h15v15H.9z"/>
+    <path class="st0" d="M.9-15.9h15v15H.9z"/>
+    <path class="st0" d="M.9-15.9h15v15H.9z"/>
+    <path
+      d="M15.9-16.9c.5 0 .9.4.9.9s-.4.9-.9.9-.9-.4-.9-.9.4-.9.9-.9zM8.4-9.6c.5 0 .9.4.9.9s-.4.9-.9.9-.9-.3-.9-.9c0-.5.4-.9.9-.9zM.9-16.9c.5 0 .9.4.9.9s-.4.9-.9.9c-.5.1-.9-.3-.9-.8 0-.6.4-1 .9-1zm15 15c.5 0 .9.4.9.9s-.4.9-.9.9-.9-.3-.9-.8.4-1 .9-1zm-15 0c.5 0 .9.4.9.9.1.6-.3 1-.9 1C.4 0 0-.4 0-.9c0-.6.4-1 .9-1z"
+      fill="#000000"/></pattern>
+  <pattern id="SVGID_2_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 -1 -32.55 -51423.973)"/>
+  <path fill="url(#SVGID_2_)" d="M0 0h1920v2302.9H0z"/></svg>
