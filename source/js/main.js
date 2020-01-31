@@ -113,6 +113,27 @@ $(document).ready(function () {
     ]
   });
 
+  $('.reviews-users__list').slick({
+    infinite: false,
+    slidesToShow: 1,
+    arrows: false,
+    dots: true,
+    adaptiveHeight: true,
+    responsive: [
+      {
+        breakpoint: 999999,
+        settings: "unslick"
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+    ]
+  });
+
   $(".program__accordion-toggle").click(function () {
     $(this).closest('.program__item').toggleClass("open");
   });

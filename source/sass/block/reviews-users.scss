@@ -20,6 +20,14 @@
   &__item{
     margin-bottom: 15px;
   }
+
+  & .slick-dots li button::before{
+    color: black;
+    opacity: 1;
+  }
+  & .slick-dots li.slick-active button::before{
+    color: $main_color;
+  }
 }
 
 @media (min-width: 768px) {
